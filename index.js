@@ -61,7 +61,7 @@ async function connectToDatabase() {
     app.get("/api/tenders/page/:page", async (req, res) => {
       try {
         let page = parseInt(req.params.page) || 1;
-        let limit = 10;
+        let limit = 50;
         let skip = (page - 1) * limit;
 
         const tenders = await collection

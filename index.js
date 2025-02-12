@@ -5,7 +5,7 @@ const { ObjectId } = require("mongodb");
 const cors = require("cors");
 
 const app = express();
-const uri = "mongodb+srv://hussnainrajpoot5415:123456...@blogsdb.9xfkjee.mongodb.net/?retryWrites=true&w=majority&appName=blogsdb";
+const uri = "mongodb+srv://jizyjizy10:jizyjizy10@tender.q40dy.mongodb.net/?retryWrites=true&w=majority&appName=Tender";
 const client = new MongoClient(uri);
 app.use(express.json());
 app.use(cors());
